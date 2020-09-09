@@ -1,0 +1,48 @@
+﻿body{margin:0;overflow:hidden;}
+#DivWarning{position:absolute;z-index:10000;height:150px;width:280px;background-color:#999;font:15px Verdana;color:#fff;-webkit-border-radius:5px;-webkit-user-select:none;}
+.divBrowserInfo{margin-top:100px;text-align:center;font:bold 14px Verdana, Geneva, sans-serif; color:#f39;text-shadow:1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;}
+#DivProcessBarCover{position:absolute;height:100%;width:100%;z-index:1000;-webkit-user-select:none;}
+#ImageLoading{width:180px;margin:auto;}
+.divProgressBarLayer{position:absolute;z-index:9999;height:52px;width:209px;}
+#DivProcess{position:absolute;z-index:9999;height:59px;width:190px;background:url(loading.png) no-repeat center center;}
+#DivProgressBar{height:8px;padding:1px;width:180px;margin:auto;background-color:#fff;-webkit-border-radius:5px;}
+#DivProgressBarPercent{height:6px;-webkit-border-radius:4px;background-color:#47aae0;margin:1px;}
+#DivProgressText{height:20px;width:180px;margin-left:auto;margin-right:auto;margin-top:8px;font:bold 14px Verdana, Geneva, sans-serif; color:#f39;text-shadow:1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;}
+
+#DivThumbnailHandler{}
+
+#DivMapChangeHandler{height:35px;width:47px;position:absolute;z-index:1000;background:url(jump.png)}
+
+#DivMapHandler{}
+
+#DivToolBar{height:31px;width:257px;background-color:#293a1b;z-index:1000;position:absolute;background:url(tbbgs.png) no-repeat 0px 0px;}
+#DivToolBar .divMapOpen{background: url("tbbgs.png") no-repeat scroll -213px -96px transparent;height: 23px;left: 216px;position: absolute; top: 6px;width: 31px;}
+#DivToolBar .divMapClose{background: url("tbbgs.png") no-repeat scroll -213px -96px transparent;height: 23px;left: 216px;position: absolute;top: 6px; width: 31px;}
+#DivToolBar .divLeft{background: url("tbbgs.png") no-repeat scroll -72px -96px transparent;height: 23px;left: 49px; position: absolute; top: 6px;width: 23px;}
+#DivToolBar .divRight{background: url("tbbgs.png") no-repeat scroll -107px -96px transparent;height: 23px;left: 82px; position: absolute; top: 6px;width: 23px;}
+#DivToolBar .divUp{background: url("tbbgs.png") no-repeat scroll -144px -96px transparent;height: 23px;left: 117px;position: absolute;top: 6px;width: 23px;}
+#DivToolBar .divDown{ background: url("tbbgs.png") no-repeat scroll -180px -96px transparent;height: 23px;left:151px;position: absolute;top: 6px; width: 23px;}
+#DivToolBar .divZoomin{background: url("tbbgs.png") no-repeat scroll -113px -96px transparent;height: 23px;left: 107px;position: absolute;top: 6px;width: 23px;}
+#DivToolBar .divZoomout{background: url("tbbgs.png") no-repeat scroll -169px -96px transparent; height: 23px;left: 162px;position: absolute; top: 6px; width: 23px;}
+#DivToolBar .DivThumbnailOpen{background: url("tbbgs.png") no-repeat scroll 0px -96px transparent;height: 23px;left: 11px;position: absolute; top: 6px; width: 23px;}
+#DivToolBar .DivThumbnailClose{background: url("tbbgs.png") no-repeat scroll -254px -96px transparent; height: 23px; left: 11px; position: absolute; top: 6px;width: 23px;}
+#DivToolBar .divChangeMode1{background: url("tbbgs.png") no-repeat scroll -36px -96px transparent;height: 23px;left: 14px;position: absolute;top: 6px;width: 23px;}
+#DivToolBar .divChangeMode2{background: url("tbbgs.png") no-repeat scroll -287px -96px transparent;height: 23px;left: 14px;position: absolute;top: 6px; width: 23px;}
+
+#DivThumbnail1{height:50px;width:316px;background:url("tbbgs.png") no-repeat 0px -35px}
+#DivThumbnail1 .divLeftPart{position:absolute;top:0px;height:93px;width:9px;}
+#DivThumbnail1 .divCenterPart{position:absolute;top:0px;height:93px;overflow:hidden;}
+#DivThumbnail1 .divThumbnailPanel{height:40px;width:73px;float:left;margin-top:5px;background:#fff;-webkit-border-radius:5px;}
+#DivThumbnail1 .divThumbnailTipC{height:16px;width:73px;margin-top:24px;background-color:#000;opacity:0.6;color:#fff;font-size:10px;font-weight:400;text-align:center;overflow:hidden;-webkit-border-radius:5px;}
+#DivThumbnail1 .divThumbnailTipS{height:16px;width:73px;margin-top:24px;background-color:#fff;opacity:0.6;color:#000;font-size:10px;font-weight:400;text-align:center;overflow:hidden;-webkit-border-radius:5px;}
+
+.divcontent{float:left;position:relative;}
+.divtl{height:22px;width:22px;float:left;background:url(tl.png)}
+.divt{height:22px;float:left;background:url(t.png)}
+.divl{width:22px;float:left;background:url(l.png)}
+.divb{height:22px;float:left;background:url(b.png)}
+.divr{width:22px;float:left;background:url(r.png)}
+.divtr{width:22px;height:22px;background:url(tr.png);float:left;}
+.divbl{width:22px;height:22px;background:url(bl.png);float:left;}
+.divbr{width:22px;height:22px;background:url(br.png);float:left;}
+.divclear{clear:both;}

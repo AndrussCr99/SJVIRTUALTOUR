@@ -1,0 +1,48 @@
+body{margin:0;overflow:hidden;}
+#DivWarning{position:absolute;z-index:10000;height:150px;width:280px;background-color:#999;font:15px Verdana;color:#fff;-webkit-border-radius:5px;-webkit-user-select:none;}
+.divBrowserInfo{margin-top:100px;text-align:center;font:bold 14px Verdana, Geneva, sans-serif; color:#f39;text-shadow:1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;}
+#DivProcessBarCover{position:absolute;height:100%;width:100%;z-index:1000;-webkit-user-select:none;}
+#ImageLoading{width:180px;margin:auto;}
+.divProgressBarLayer{position:absolute;z-index:9999;height:52px;width:209px;}
+#DivProcess{position:absolute;z-index:9999;height:59px;width:190px;background:url(loading.png) no-repeat center center;}
+#DivProgressBar{height:8px;padding:1px;width:180px;margin:auto;background-color:#fff;-webkit-border-radius:5px;}
+#DivProgressBarPercent{height:6px;-webkit-border-radius:4px;background-color:#47aae0;margin:1px;}
+#DivProgressText{height:20px;width:180px;margin-left:auto;margin-right:auto;margin-top:8px;font:bold 14px Verdana, Geneva, sans-serif; color:#f39;text-shadow:1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;}
+
+#DivThumbnailHandler{}
+
+#DivMapChangeHandler{height:35px;width:47px;position:absolute;z-index:1000;background:url(jump.png);-webkit-user-select:none;cursor:pointer;}
+
+#DivMapHandler{}
+
+#DivToolBar{height:36px;width:416px;background-color:#293a1b;z-index:1000;position:absolute;background:url(tbbg.png) no-repeat 0px 0px;-webkit-user-select:none;}
+#DivToolBar .divMapOpen{background: url("tbbg.png") no-repeat scroll -444px -135px transparent;height: 25px;left: 464px;position: absolute; top: 6px;width: 41px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divMapClose{background: url("tbbg.png") no-repeat scroll -444px -135px transparent;height: 25px;left: 464px;position: absolute;top: 6px; width: 41px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divLeft{background: url("tbbg.png") no-repeat scroll -225px -135px transparent;height: 28px;left: 190px; position: absolute; top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divRight{background: url("tbbg.png") no-repeat scroll -282px -135px transparent;height: 28px;left: 246px; position: absolute; top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divUp{background: url("tbbg.png") no-repeat scroll -339px -135px transparent;height: 28px;left: 301px;position: absolute;top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divDown{ background: url("tbbg.png") no-repeat scroll -395px -135px transparent;height: 28px;left: 356px;position: absolute;top: 6px; width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divZoomin{background: url("tbbg.png") no-repeat scroll -113px -135px transparent;height: 28px;left: 81px;position: absolute;top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divZoomout{background: url("tbbg.png") no-repeat scroll -169px -135px transparent; height: 28px;left: 136px;position: absolute; top: 6px; width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .DivThumbnailOpen{background: url("tbbg.png") no-repeat scroll 0px -135px transparent;height: 28px;left: 24px;position: absolute; top: 6px; width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .DivThumbnailClose{background: url("tbbg.png") no-repeat scroll -509px -135px transparent; height: 28px; left: 24px; position: absolute; top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divChangeMode1{background: url("tbbg.png") no-repeat scroll -54px -135px transparent;height: 28px;left: 25px;position: absolute;top: 6px;width: 27px;cursor:pointer;-webkit-user-select:none;}
+#DivToolBar .divChangeMode2{background: url("tbbg.png") no-repeat scroll -552px -135px transparent;height: 28px;left: 25px;position: absolute;top: 6px; width: 27px;cursor:pointer;-webkit-user-select:none;}
+
+#DivThumbnail1{height:93px;width:622px;background:url(tbbg.png) no-repeat 0px -39px;}
+#DivThumbnail1 .divLeftPart{position:absolute;top:0px;height:93px;width:9px;}
+#DivThumbnail1 .divCenterPart{position:absolute;top:0px;height:93px;overflow:hidden;}
+#DivThumbnail1 .divThumbnailPanel{height:80px;width:145px;float:left;margin-top:7px;background:#fff;-webkit-border-radius:5px;cursor:pointer;}
+#DivThumbnail1 .divThumbnailTipC{height:20px;width:145px;margin-top:60px;background-color:#000;color:#fff;opacity:0.6;font-family:Times New Romes;font-weight:700;text-align:center;overflow:hidden;}
+#DivThumbnail1 .divThumbnailTipS{height:20px;width:145px;margin-top:60px;background-color:#fff;color:#000;opacity:0.6;font-family:Times New Romes;font-weight:700;text-align:center;overflow:hidden;}
+
+.divcontent{float:left;position:relative;}
+.divtl{height:22px;width:22px;float:left;background:url(tl.png)}
+.divt{height:22px;float:left;background:url(t.png)}
+.divl{width:22px;float:left;background:url(l.png)}
+.divb{height:22px;float:left;background:url(b.png)}
+.divr{width:22px;float:left;background:url(r.png)}
+.divtr{width:22px;height:22px;background:url(tr.png);float:left;}
+.divbl{width:22px;height:22px;background:url(bl.png);float:left;}
+.divbr{width:22px;height:22px;background:url(br.png);float:left;}
+.divclear{clear:both;}
